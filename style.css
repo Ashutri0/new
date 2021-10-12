@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    border-top: 1px solid transparent;
+   background-image: url(img.jfif);
+   background-size: cover;
+   background-position: center;
+}
+#main #nav{
+    width: 100%;
+    min-height: 5vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center     ;
+}
+#main #nav #nav1{
+    width: 10%;
+    height: 20px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#main #nav #nav1 h3{
+    font-size: 10 px;
+    color: rgb(133, 127, 127);
+    font-family: Monument;
+
+}
+#main #nav #nav2{
+    width: 50%;
+    height: 20px;
+    margin-right: 40px;
+    padding: 15px;
+    font-family: monument;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(133, 127, 127);
+}
+#main #nav #nav2 .e{
+    font-size: 20px;
+}
+#main #box{
+    width: 40%;
+    min-height: 35vh;
+    padding: 15px;
+    margin-top: 300px;
+    margin-left: 70px;
+}
+#main #box .para{
+    width: 100%;
+    min-height: 50px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(73, 70, 70) ;
+    border-radius: 20px;
+    color:white;
+    font-family: gilroy;
+    font-weight: 100;
+    padding: 20px;
+}
+#main #box .arrow{
+       width: 20%;
+       min-height: 60px;
+       margin-top: 20px;
+       opacity: 0.5;
+       padding: 20px;
+       color: rgb(51, 50, 50);
+       font-size: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+#main #poster{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-30%,-40%);
+    min-height: 30vh;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    font-family: Gilroy;
+}
+#main1{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    border-top:  1px solid rgb(73, 70, 70);
+    border-radius: 10px;
+   
+   
+}
+#main1 #box1{
+    width: 100%;
+    min-height: 100vh;
+}
+#main1 #box1 #upper{
+    width: 100%;
+    min-height: 50vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#main1 #box1 #upper .up1{
+    width: 50%;
+    min-height: 50vh;
+    padding: 20px;
+    color: white;
+    font-family: Gilroy;
+    background-image: url(img2.jfif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#main1 #box1 #upper .up1 .cont{
+    width: 60%;
+    height: 20vh;
+    padding: 10px;
+    opacity: 0.7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+}
+#main1 #box1 #upper .up1 .cont h2{
+    font-size: 25px;
+}
+#main1 #box1 #upper .up1 .cont P{
+    font-size: 10px;
+}
+#main1 #box1 #upper .up2{
+    width: 50%;
+    min-height: 50vh;
+    background-image: url(img6.jfif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#main1 #box1 #upper .up2 .cont1{
+    width: 60%;
+    height: 20vh;
+    padding: 10px;
+    opacity: 0.7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   color: white;
+   transform: translate(-50%,-50%);
+}
+#main1 #box1 #upper .up2 h2{
+    margin-left: 25px;
+    font-size: 55px;
+    font-family: Gilroy;
+    line-height: 40px; 
+    word-spacing: 5px;
+}
+#main1 #box1 #upper .up2 p{
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 30px;
+}
+#main1 #box1 #down{
+    width: 100%;
+    min-height: 50vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#main1 #box1 #down .dw1{
+    width: 50%;
+    min-height: 50vh;
+    padding: 20px;
+    color: white;
+    font-family: Gilroy;
+    background-image: url(img5.jfif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#main1 #box1 #down .dw1 .cont3{
+    width: 60%;
+    height: 20vh;
+    padding: 10px;
+    opacity: 0.7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+}
+#main1 #box1 #down .dw1 .cont3 h2{
+    font-size: 55px;
+}
+#main1 #box1 #down .dw1 .cont3 P{
+    font-size: 10px;
+    margin-top: 30px;
+}
+#main1 #box1 #down .dw2{
+    width: 50%;
+    min-height: 50vh;
+    background-image: url(img4.jfif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#main1 #box1 #down .dw2 .cont4{
+    width: 60%;
+    height: 20vh;
+    padding: 10px;
+    opacity: 0.7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   color: white;
+   transform: translate(-50%,-50%);
+}
+#main1 #box1 #down .dw2 h2{
+    margin-left: 25px;
+    font-size: 55px;
+    font-family: Gilroy;
+    line-height: 40px; 
+    word-spacing: 5px;
+}
+#main1 #box1 #down .dw2 p{
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+@media (max-width: 450px){
+    #main{
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+
+    }
+    #main #nav{
+        width: 100%;
+        flex-direction: column;
+       
+    }
+    #main #nav #nav2{
+        flex-direction: column;
+        display: none;
+        font-size: 10px;
+        min-height: 18vh;
+        margin-top: 10px;
+        justify-content: start;
+        line-height: 25px;
+        margin-left: 50px;
+       
+    }
+    #main #nav #nav1{
+        flex-direction: column;
+        width: 50%;
+        margin-right: 100px;
+        justify-content: start;
+        margin-left: 120px;
+        letter-spacing: 5px;
+    }
+    #main #poster{
+        margin-top: 35px;
+    }
+    #main #box{
+         font-size: 10px;
+        
+         width: 100%;
+         position: absolute;
+         top: 20%;
+      right: 0%;
+    }
+    #main #box .para{
+        font-size: 10px;
+    }
+    #main1{
+        flex-direction: column;
+        width: 100%;
+        min-height: 200vh;
+    }
+    #main1 #box1{
+        width: 100%;
+        min-height: 200vh;
+      flex-direction: column;
+
+    }
+    #main1 #box1 #upper{
+        flex-direction: column;
+        width: 100%;
+        min-height: 110vh;
+        background-size: cover;
+    }
+    #main1 #box1 #upper .up1{
+        width: 100%;
+        min-height: 50vh;
+    }
+    #main1 #box1 #upper .up2{
+        width: 100%;
+        min-height: 60vh;
+    }
+    #main1 #box1 #upper .up2 .cont1 h2{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    #main1 #box1 #down{
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+    }
+    #main1 #box1 #down .dw1{
+        width: 100%;
+        min-height: 50vh;
+        background-size: cover;
+    }
+    #main1 #box1 #down .dw1 .cont3 h2{
+        font-size: 30px;
+    }
+    #main1 #box1 #down .dw2{
+        width: 100%;
+        min-height: 50vh;
+        background-size: cover;
+    }
+    #main1 #box1 #down .dw2 .cont4 h2{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+}
